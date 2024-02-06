@@ -34,4 +34,4 @@ test("updateTimes returns the same value provided in the state", () => {
   const result = updateTimes(currentState);
   // Since updateTimes should return the same state, expect equality
   expect(result).toEqual(currentState);
-}); 
+});                                                                                  
